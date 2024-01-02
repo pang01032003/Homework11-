@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./Photo/background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.suminfo {
+    text-align: center;
+}
+
+.counter {
+    display: flex;
+    align-items: baseline;
+    height: 80px;
+    width: 300px;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 10px;
+    background-image: url('./Photo/th.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.counter>* {
+    height: 100%;
+    flex: 1;
+    font-size: 24px;
+}
+
+.text-center {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
